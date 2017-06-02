@@ -32,7 +32,7 @@ if False:
     dat65 = pd.read_excel('data/Plastic Raw.xlsx', sheetname=1, index_col=0, header=0)
     dat65.to_pickle('dat65.pkl')
 
-    F = pd.read_excel('F(64x64).xlsx')
+    F = pd.read_excel('data/F(64x64).xlsx')
     F.to_pickle('F.pkl')    
 
 
